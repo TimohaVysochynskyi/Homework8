@@ -181,7 +181,7 @@ nav {
   transition: 1s;
 }
 
-.gradient:hover {
+.man:hover .gradient {
   opacity: 1;
   transition: 1s;
 }
