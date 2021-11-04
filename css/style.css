@@ -35,18 +35,15 @@ nav {
   line-height: 30px;
   color: #95e1d3;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .active {
   color: #f38181;
 }
 
-.info-block {
-  position: absolute;
-  width: 1104px;
-  height: 136px;
-  left: 350px;
-  top: 130px;
+.info {
+  margin-top: 10%;
 }
 
 .rectangle {
@@ -131,4 +128,89 @@ nav {
   text-align: center;
 
   color: #b6b6b6;
+}
+
+.img-features {
+  width: 50px;
+}
+
+.element {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.feature-text {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+}
+
+.item-header {
+  font-size: 22px;
+}
+
+.Laaqiq {
+  color: #f38181;
+}
+
+.footer-element {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.input {
+  width: 150px;
+  height: 30px;
+  border: gray 2px solid;
+  border-radius: 2px;
+}
+
+.info {
+  margin-left: 6%;
+}
+
+.gradient {
+  width: 380px;
+  height: 460px;
+  background: linear-gradient(
+    180deg,
+    rgba(239, 139, 138, 0.8) 0%,
+    rgba(229, 207, 130, 0.8) 100%
+  );
+  opacity: 0;
+  transition: 1s;
+}
+
+.gradient:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.g1 {
+  position: absolute;
+  top: 695px;
+  left: 235px;
+}
+
+.g2 {
+  position: absolute;
+  top: 695px;
+  left: 605px;
+}
+
+.g3 {
+  position: absolute;
+  top: 695px;
+  left: 990px;
+}
+
+.social {
+  width: 50px;
+}
+
+.block-soc {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 55%;
 }
