@@ -3,18 +3,19 @@ body {
 }
 
 .nickname {
+  text-decoration: none;
   position: absolute;
   width: 98px;
   height: 33px;
   left: 360px;
   top: 17px;
-
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 37px;
-
+  color: #95e1d3;
+}
+.nickname:hover {
   color: #95e1d3;
 }
 
@@ -26,16 +27,24 @@ nav {
   top: 32px;
 }
 
+.links {
+  display: inline-block;
+}
+
 .link {
   margin-right: 20px;
   display: inline-block;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 30px;
   color: #95e1d3;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.link:hover {
+  color: #95e1d3;
 }
 
 .active {
@@ -62,7 +71,6 @@ nav {
   line-height: 35px;
 
   color: #333333;
-  font-style: italic;
   text-align: center;
 }
 
@@ -99,10 +107,6 @@ nav {
   height: 450px;
 }
 
-.man {
-  display: inline-block;
-}
-
 .name {
   font-family: Montserrat;
   font-style: normal;
@@ -119,7 +123,6 @@ nav {
 
 .prof {
   font-family: Roboto;
-  font-style: italic;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -132,11 +135,14 @@ nav {
 
 .img-features {
   width: 50px;
+  float: left;
 }
 
 .element {
-  display: inline-block;
+  display: flex;
   text-transform: uppercase;
+  line-height: 10px;
+  margin-top: 20px;
 }
 
 .feature-text {
@@ -165,13 +171,19 @@ nav {
   border-radius: 2px;
 }
 
+.man {
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .info {
   margin-left: 6%;
 }
 
 .gradient {
-  width: 380px;
-  height: 460px;
+  width: 365px;
+  height: 450px;
   background: linear-gradient(
     180deg,
     rgba(239, 139, 138, 0.8) 0%,
@@ -188,20 +200,20 @@ nav {
 
 .g1 {
   position: absolute;
-  top: 695px;
-  left: 235px;
+  top: -10px;
+  left: -10px;
 }
 
 .g2 {
   position: absolute;
-  top: 695px;
-  left: 605px;
+  top: -10px;
+  left: -10px;
 }
 
 .g3 {
   position: absolute;
-  top: 695px;
-  left: 990px;
+  top: -10px;
+  left: -10px;
 }
 
 .social {
@@ -213,4 +225,57 @@ nav {
   justify-content: center;
   align-items: flex-end;
   margin-top: 55%;
+}
+
+.feat {
+  margin-left: 60px;
+}
+
+.list {
+  list-style: none;
+}
+
+.men {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.footer {
+  border-top: 1px gray solid;
+  margin-left: 90px;
+  width: 1200px;
+  height: 50px;
+}
+
+.footer-p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  float: left;
+}
+
+.footer-input {
+  padding-left: 15px;
+  font-style: italic;
+  width: 230px;
+  height: 40px;
+  border-radius: 0px;
+  border: 1px grey solid;
+}
+
+.footer-btn {
+  padding: 0px 15px;
+  height: 40px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #95e1d3;
+  border: none;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: end;
 }
